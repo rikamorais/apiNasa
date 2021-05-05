@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(0, 0, 56);
+    background-image: url('../img/fundoEstrelado2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    font-family: Roboto Medium;
+    margin: 50px 0 0 0;
+}
+
+#titulo{
+    display: block;
+    font-family: Roboto Medium;
+}
+
+header{
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 30px 30px 30px;
+}
+
+#divCentro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto Medium;
+}
+
+#campoData {
+    text-align: center;
+}
+
+#data{
+    font-family: Roboto Medium;
+}
+
+#date{
+    margin: 0 0 10px 0;
+}
+
+#botao {
+    display: block;
+    margin: 10px;
+}
+
+#imagemNasa {
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: AtWriter;
+    src: url(../fontes/atwriter.ttf);
+}
+
+@font-face {
+    font-family: Roboto Medium;
+    src: url(../fontes/robotoMedium.ttf);
+}

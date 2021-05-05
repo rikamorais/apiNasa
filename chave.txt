@@ -1,0 +1,11 @@
+Gerar chave API
+Sua chave API para erikausjt@yahoo.com.br é:
+
+6sG0hzqMR4eKpLBcfngGYn3879YbJWGXo1ESlwR9
+Você pode começar a usar essa chave para fazer solicitações de serviço da web. Basta passar sua chave no URL ao fazer uma solicitação da web. Aqui está um exemplo:
+
+https://api.nasa.gov/planetary/apod? api_key = 6sG0hzqMR4eKpLBcfngGYn3879YbJWGXo1ESlwR9
+Para suporte adicional, entre em contato conosco . Ao entrar em contato conosco, diga-nos qual API você está acessando e forneça os seguintes detalhes da conta para que possamos encontrar você rapidamente:
+
+E-mail da conta: erikausjt@yahoo.com.br
+ID da conta: 68dd605e-7994-44ae-8fa1-df8431ca4405
