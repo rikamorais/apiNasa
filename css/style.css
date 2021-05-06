@@ -1,7 +1,7 @@
 body{
     background-color: rgb(0, 0, 56);
     background-image: url('../img/fundoEstrelado2.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -59,6 +59,7 @@ header{
 
 #imagemNasa {
     border-radius: 10px;
+    width: 700px;
 }
 
 @font-face {
@@ -70,3 +71,62 @@ header{
     font-family: Roboto Medium;
     src: url(../fontes/robotoMedium.ttf);
 }
+
+@media screen and (max-width:768px) {
+
+    #imagemNasa {
+        border-radius: 10px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    #titulo{
+        font-size: 16pt;
+    }
+
+    #imagemNasa {
+        border-radius: 10px;
+        width: 400px;
+    }
+
+    #container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #titulo{
+        font-size: 16pt;
+    }
+
+    #imagemNasa {
+        border-radius: 10px;
+        width: 300px;
+    }
+
+    #container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #titulo{
+        font-size: 16pt;
+    }
+
+    #imagemNasa {
+        border-radius: 10px;
+        width: 250px;
+    }
+
+    #container {
+        width: 80%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+

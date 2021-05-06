@@ -2,10 +2,10 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./scripts/script.js" type="text/javascript" defer></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Foto do dia NASA</title>
+    <title>Projeto Nasa</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
 </head>
 <body>
     <div id="container">
@@ -16,18 +16,31 @@
                 <p>
                     Selecione a data
                 </p>
-                <input type="date" id="data">
-                <button id="botao">Pesquisar</button>
+                <input type="date" id="date">
+                <button id="botaoPesquisa">Pesquisar</button>
             </div>
         </div>
         </header>
         <div>
-            <div id="imagem">
+            <div id="divImagem">
+                <img src="" id="imagemNasa" >
             </div>
         </div>
         <footer>
             <p>*Imagem obtida pela API da NASA (APOD)</p>
         </footer>
     </div>
+
+    <!-- <input type="date" id="dataApod">
+    <button id="pesquisa"><i class="fas fa-search"></i></button>
+    <br>
+    <img src="" id="imgApod" > -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <script src="./scripts/script2.js" type="text/javascript"></script>
 </body>
 </html>
